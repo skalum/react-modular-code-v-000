@@ -299,7 +299,7 @@ gryffMascot()
 ```js
 // src/Hogwarts.js
 import { colors } from './houses/Gryffindor.js'
-import { mascot as gryffMascot } from './houses/Gryffindor.js'
+import { gryffMascot as mascot } from './houses/Gryffindor.js'
 
 colors()
 // > 'Scarlet and Gold'
